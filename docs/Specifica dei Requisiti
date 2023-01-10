@@ -1,0 +1,40 @@
+1) Dominio e requisiti funzionali
+
+Il software da realizzare è una applicazione mobile, in particolare per dispositivi Android, nell’ambito della ristorazione. L’app viene utilizzata da camerieri e addetti alla cucina per la gestione delle comande in un ristorante o bar. Il software, installato sul dispositivo in possesso del cameriere, fornirà l’accesso all’elenco dei tavoli del ristorante. 
+Il cameriere potrà selezionare il tavolo dove sta prendendo la comanda e selezionare i piatti e le bevande ordinate dai clienti di quel tavolo. Egli può quindi prendere più ordini più volte per uno stesso tavolo, in quanto è ovvia la possibile situazione in cui dei clienti vogliano ordinare dapprima un primo e delle bevande e solo successivamente un secondo oppure un contorno oppure un dolce. 
+Il cameriere però dovrà, una volta terminata la comanda di un tavolo, confermare la comanda stessa, prima di poterne aprire un’altra per un altro tavolo. In questo modo si evitano possibili errori di compilazione delle comande e malintesi nelle ordinazioni dei clienti, riducendo il rischio di disagio nei clienti stessi. 
+Un altro possibile scenario è l’intolleranza alimentare da parte di alcuni clienti. Per tanto, ogni piatto, primo, secondo, contorno o dolce che sia, avrà una lista di allergeni associata. Il cameriere, al momento, tramite una apposita funzionalità potrà visualizzare e comunicare ai clienti eventuali allergeni dei piatti prima di prendere ufficialmente l’ordine. 
+Inoltre, il cameriere potrà aggiungere delle note nella comanda: ad esempio un cliente che chiede una modifica a un piatto può specificarla al cameriere, il quale la inserirà nelle note della comanda. 
+Una volta confermato l’ordine il tutto viene salvato in una apposita sezione del database dell’applicazione. 
+La cucina potrà quindi visualizzare continuamente, aggiornando l’app, la presenza di nuovi ordini. Anche tutti i piatti sono salvati nel database in modo da comparire al cameriere al momento dell’ordine. 
+Il software dovrà funzionare chiaramente anche in concomitanza ad altri dispositivi utilizzati, anche, contemporaneamente dagli altri camerieri. E’ infatti ovvio che ci saranno situazioni in cui più camerieri stanno usando l’app per prendere ordini da tavoli diversi nello stesso momento. Il database, quindi verrà aggiornato di volta in volta. 
+Siccome ogni dispositivo può operare su un tavolo alla volta ed è necessario confermare l’ordine prima di passare al tavolo successivo, non ci saranno problemi di ordini in conflitto tra loro. 
+Il sistema software deve essere dotato di un’interfaccia amichevole, con menu a tendina, finestre, pulsanti e vari text field. Inoltre, non deve interfacciarsi con nessun sistema hardware o software esterni.
+
+
+
+
+Quindi, riassumendo, le principali funzionalità che il software dovrà quindi implementare sono le seguenti: 
+•	PRENOTAZIONE TAVOLI
+•	PRENDERE COMANDA
+•	VISUALIZZAZIONE COMANDA
+•	VISUALIZZAZIONE TAVOLI
+•	MODIFICA COMANDA
+•	CANCELLAZIONE COMANDA
+•	CANCELLAZIONE PRENOTAZIONE
+
+Inoltre, gli unici utenti con cui il sistema dovrà interagire sarà solo il personale del Ristorante.
+
+2) Requisiti funzoinali
+
+Questo aspetto è molto vantaggioso dato che sappiamo che chi andrà a utlizzare il software sarà già "preparato" per l'utilizzo.
+Anche le relazioni tra i vari utenti non sono da tenere conto, infatti provvederà il sistema a far interagire il personale della cucina con il personale della sala. 
+
+
+Il sistema dovrà essere estremamente affidabile.
+E' molto importante l'integrità e la sicurezza dei dati nel Database, infatti anche un piccolo errore può causare un bel danno a livello organizzativo per la cucina.
+Le prestazioni  e le tempistiche del software sono fondamentali. Un ordine che viene preso e confermato dal cameriere deve disponibile e visualizzabile dalla cucina nel minor tempo possibile.
+Nonostante il personale sia preparato all'uso del software, è importante che l'interfaccia sia semplice e ordinata, così da ridurre al minimo il rischio di errore.
+
+
+
