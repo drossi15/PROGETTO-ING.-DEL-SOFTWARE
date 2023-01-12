@@ -8,13 +8,16 @@ Il software da realizzare è una applicazione mobile, in particolare per disposi
  Il software, installato sul dispositivo in possesso del cameriere, fornirà l’accesso all’elenco dei tavoli del ristorante e permetterà di svolgere le seguenti azioni: 
 
 
-•	PRENOTAZIONE TAVOLO
-•	CANCELLAZIONE PRENOTAZIONE TAVOLO
-•	PRENDERE UN ORDINE
-•	CANCELLARE UN ORDINE
-•	MODIFICA UN ORDINE
-•	VISUALIZZAZIONE COMANDA
-•	VISUALIZZAZIONE TAVOLI
+•	NUOVA PRENOTAZIONE
+•	CANCELLA PRENOTAZIONE
+•   MODIFICA PRENOTAZIONE
+•	NUOVO ORDINE
+•	CANCELLARE ORDINE
+•	MODIFICA ORDINE
+•	VISUALIZZAZIONE ORDINE
+•   VISUALIZZA PRENOTAZIONE
+•   CHECK ORDINE
+•   CHECK PRENOTAZIONE
 
 
 Gli utenti del nostro software saranno esclusivamente il personale di sala e il personale della cucina del locale.
@@ -22,10 +25,20 @@ Dopo l'accensione dell'applicazione, l'interfaccia grafica  mostrerà una scherm
 -UTENTE SALA
 -UTENTE CUCINA
 
-Selezionando uno dei due utenti, verrano poi mostrate le azioni che quell'utente potrà svolgere. Nel caso di "UTENTE SALA" comprariranno tutte le azioni elencate precedentemente, nel caso di "UTENTE CUCINA" invece verranno mostrate solo le ultime due azioni di visualizzazione.
+Selezionando uno dei due utenti, verrano poi mostrate le azioni che quell'utente potrà svolgere.
+Nel caso di "UTENTE SALA" comprariranno :
+- NUOVA PRENOTAZIONE
+- NUOVO ORDINE
+- VISUALIZZA ORDINE
+- VISUALIZZA PRENOTAZIONE
+Nel caso di "UTENTE CUCINA" invece verrà mostratA solamente la funzione VISUALIZZA ORDINE.
+Tramite la funzione NUOVA PRENOTAZIONE il cameriere potrà creare una nuova prenotazione attraverso l'inserimento del Nome della persona che fa la prenotazione, il suo numero di cellulare e il numero di tavolo, quest'ultimo sarà assegnato dal cameriere.
+Il sistema poi provvederà a inserire anche un codice id univoco.
+Invece selezionando NUOVO ORDINE si potrà creare un nuovo ordine inserendo i vari nomi dei piatti scelti dal cliente. Anche in questo caso il sistema poi provvederà a fornire un codice univoco.
+Selezionando la funzione VISUALIZZAZIONE ORDINE e VISUALIZZAZIONE PRENOTAZIONE si potranno vedere i vari ordini/prenotazioni e scegliendo uno di essi si potrà eseguire le seguente azioni:
+-per le prenotazioni si potranno eseguire MODIFICA PRENOTAZIONE, CHECK PRENOTAZIONE (operazione da fare quando il cliente arriva al locale) e CANCELLA PRENOTAZIONE.
+-per gli ordini si potranno eseguire MODIFICA ORDINE, CHECK ORDINE (operazione da fare quando un piatto è pronto) e CANCELLA ORDINE.
 
-
-// la descrizione delle azioni una ad una io la farei con i sequence diagram. Poi diagramma dei casi d'uso, stati e attività. Per ultimo quello delle classi
 
 
 3) SPECIFICHE NON FUNZIONALI, RISCHI, SCENARI PARTICOLARI REQUISITI NON OBBLIGATORI
@@ -43,7 +56,6 @@ Un altro possibile scenario è l’intolleranza alimentare da parte di alcuni cl
 Inoltre, il cameriere potrà aggiungere delle note nella comanda: ad esempio un cliente che chiede una modifica a un piatto può specificarla al cameriere, il quale la inserirà nelle note della comanda. 
   
 
-
 4) Requisiti del processo di sviluppo e manutenzione:
   
-procedure di gestione della qualità e procedure di test del sistema
+procedure di gestione della qualità e procedure di test del sistema 
