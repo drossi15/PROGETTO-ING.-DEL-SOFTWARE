@@ -1,9 +1,12 @@
+SPECIFICA DEI REQUISITI
 
-
-
+1) INTRODUZIONE
 
 Il software da realizzare è una applicazione mobile, in particolare per dispositivi Android, nell’ambito della ristorazione.
-L’app viene utilizzata da camerieri e addetti alla cucina per la gestione delle comande in un ristorante o bar.
+L’app viene utilizzata da camerieri e addetti alla cucina per la gestione e visualizzazione delle comande in un ristorante o in un bar.
+
+2) DESCRIZIONE GENERALE
+
 Il software, installato sul dispositivo in possesso del cameriere e del cuoco, 
 fornirà l’accesso all’elenco dei tavoli del ristorante e permetterà di svolgere le seguenti azioni: 
 
