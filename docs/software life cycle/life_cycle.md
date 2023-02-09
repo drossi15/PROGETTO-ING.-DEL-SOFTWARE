@@ -3,6 +3,7 @@ SOFTWARE LIFE CYCLE
 Il software life cycle che abbiamo utilizzato è  stato eXtreme Programming, infatti essendo il nostro gruppo molto piccolo,
 questo ciclo di vita si adattava molto bene alle nostre esigenze.
 Il modello che abbiamo utilizzato per organizzare le fasi da svolgere è stato il modello a cascata.
+Durante la fase di implementazione, abbiamo seguito un modello Moscow per decidere quali funzioni implementare prima.
 Alla fine di ogni fase abbiamo revisionato e convalidato tutti i documenti prodotti in modo da chiudere la fase e iniziare quella successiva.
 Nel caso di cambiamenti sono state poi fatte le opportune modifiche tramite i seguenti passi:
 
