@@ -1,2 +1,0 @@
-
-Progettazione (design) del software
