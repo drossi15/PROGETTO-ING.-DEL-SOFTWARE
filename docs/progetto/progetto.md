@@ -1,2 +1,2 @@
 
-progettazione del software
+Progettazione (design) del software
