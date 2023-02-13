@@ -6,4 +6,4 @@ In particolare siamo andati alla ricerca di una coesione di tipo sequenziale. L'
 
 PATTERN. 
 Sono stati utilizzati diversi tipi di pattern, ad esempio il singleton ed il MVC. Il singleton è stato utilizzato per la creazione del database.
-Abbiamo implementato anche il Model-View-Controller con anche il pattern observable.
+Abbiamo implementato anche il Model-View-Controller con anche il pattern abstraction occurence.
