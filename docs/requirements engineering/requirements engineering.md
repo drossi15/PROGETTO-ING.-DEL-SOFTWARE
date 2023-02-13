@@ -58,8 +58,8 @@ Per definire l'importantanza dei requisiti ci siamo affidati ad un modello MoSCo
 
   1) MUST HAVE: interfaccia semplice ed intuitiva per non creare difficoltà nell' utilizzo
   2) SHOULD HAVE: integrità dei dati nel database per non confondere ordini e prenotazioni. 
-  3) COULD HAVE: tempi di risposta brevi (nell' ordine dei secondi), gestione della concorrenza nell' accesso al database 
-  4) WON'T HAVE:   
+  3) COULD HAVE: tempi di risposta brevi (nell' ordine dei secondi).
+  4) WON'T HAVE: gestione della concorrenza nell' accesso al database.   
 
 
 
