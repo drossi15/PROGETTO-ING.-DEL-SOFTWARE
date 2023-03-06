@@ -41,8 +41,8 @@ public class visualizza_prenotazione extends AppCompatActivity {
                     String s=new String();
                     String y= new String();
                     for(int i=1;i<=6;i++){
-                        y=resultSet.getString(i);
-                        s=s+"   "+y;
+                        y=resultSet.getString(i);                           //CONVERTO IL RISULTATO DELLA COLONNA IN STRINGA
+                        s=s+"   "+y;                                        //SOMMO LA STRINGA LLE STRINGHE DELLE ALTRE COLONNE
 
                     }
                     listp.add(s);                                          //SALVA LA STRINGA IN UNA LISTA

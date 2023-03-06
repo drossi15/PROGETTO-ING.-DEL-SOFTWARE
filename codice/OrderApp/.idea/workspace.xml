@@ -6,13 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="973df988-eff7-4c9b-8efa-a6b1518391fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/orderapp/attività/visualizza_ordine.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/orderapp/attività/visualizza_ordine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/orderapp/attività/visualizza_prenotazione.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/orderapp/attività/visualizza_prenotazione.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/giorgiocorna/.android/avd/Pixel_5_API_33.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\diego\.android\avd\Nexus_6_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />

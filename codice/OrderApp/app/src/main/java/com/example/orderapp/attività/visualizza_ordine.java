@@ -45,8 +45,8 @@ public class visualizza_ordine extends AppCompatActivity {
                     String s1=new String();
                     String y1= new String();
                     for(int i=1;i<=4;i++){
-                        y1=resultSet.getString(i);
-                        s1=s1+"          "+y1;
+                        y1=resultSet.getString(i);                            //CONVERTO IL RISULTATO IN STRINGA
+                        s1=s1+"          "+y1;                                //SOMMO LA STRINGA LLE STRINGHE DELLE ALTRE COLONNE
 
                     }
                     listo.add(s1);                                             //AGGIUNGO LA STRINGA A UNA LISTA
