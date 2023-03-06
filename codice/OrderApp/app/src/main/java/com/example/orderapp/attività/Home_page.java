@@ -47,12 +47,12 @@ public class Home_page extends AppCompatActivity {
             }
         });
     }
-
+//metodo per cambiare attività verso cameriere
     private void cambiaAttivitàCam(){
         Intent intent=new Intent(this, Cameriere_activity.class);
         startActivity(intent);
     }
-
+//metodo per cambiare attività verso cuoco
     private void cambiaAttivitàCuoco(){
         Intent intent=new Intent(this, Cuoco_Activity.class);
         startActivity(intent);
