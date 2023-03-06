@@ -77,7 +77,7 @@ public class ConnectionHelper  {
 
     }
 
-    //METODO PER CALCOLARE IL PREZZO DI UN ORDINE
+    //METODO PER CALCOLARE IL PREZZO DI UN ORDINE (come parametro passo il vettore delle quantità dei piatti inseriti nel database)
 
     public double Calcola_prezzo(int quantità[],Connection cn){
         double totale=0;

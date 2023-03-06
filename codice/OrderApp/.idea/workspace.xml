@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="973df988-eff7-4c9b-8efa-a6b1518391fb" name="Changes" comment="commenti visualizza ordine/ visualizza prenotazione" />
+    <list default="true" id="973df988-eff7-4c9b-8efa-a6b1518391fb" name="Changes" comment="commenti visualizza ordine/ visualizza prenotazione">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/orderapp/database/ConnectionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/orderapp/database/ConnectionHelper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
