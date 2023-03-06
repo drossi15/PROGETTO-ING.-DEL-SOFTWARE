@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="973df988-eff7-4c9b-8efa-a6b1518391fb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/orderapp/attività/visualizza_ordine.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/orderapp/attività/visualizza_ordine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/orderapp/attività/visualizza_prenotazione.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/orderapp/attività/visualizza_prenotazione.java" afterDir="false" />
-    </list>
+    <list default="true" id="973df988-eff7-4c9b-8efa-a6b1518391fb" name="Changes" comment="commenti visualizza ordine/ visualizza prenotazione" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,6 +123,29 @@
       <option name="presentableId" value="Default" />
       <updated>1678110517024</updated>
     </task>
+    <task id="LOCAL-00001" summary="commenti visualizza ordine/ visualizza prenotazione">
+      <created>1678115006059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678115006059</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commenti visualizza ordine/ visualizza prenotazione" />
+    <option name="LAST_COMMIT_MESSAGE" value="commenti visualizza ordine/ visualizza prenotazione" />
   </component>
 </project>
