@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OrderApp"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".attività.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".attività.Cameriere_activity" />
+        <activity android:name=".attività.Cuoco_Activity" />
+        <activity android:name=".attività.nuovaprenotazione_activity" />
+        <activity android:name=".attività.Home_page" />
+        <activity android:name=".attività.nuovoordine" />
+        <activity android:name=".database.ConnectionHelper"/>
+        <activity android:name=".attività.visualizza_ordine"/>
+        <activity android:name=".attività.visualizza_prenotazione"/>
+        <activity android:name=".attività.cancella_prenotazione"/>
+    </application>
+
+</manifest>
