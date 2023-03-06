@@ -25,7 +25,7 @@ public class Cameriere_activity  extends AppCompatActivity {
         Button buttonVisualizzaOrdine = findViewById(R.id.VisualizzaOrdine);
         Button buttonCancPrenotazione = findViewById(R.id.buttonCancPrenotazione);
 
-        //CONTROLLO PULSANTE "INDIETRO"
+        //CONTROLLO PULSANTE "INDIETRO" ///////
 
         buttonBack1.setOnClickListener(new View.OnClickListener(){
             @Override
