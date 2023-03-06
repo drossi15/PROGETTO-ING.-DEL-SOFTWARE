@@ -9,7 +9,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.sql.Connection;
-
+//test database
 public class DbTest {
 
     @Test
